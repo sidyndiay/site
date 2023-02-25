@@ -1,0 +1,130 @@
+
+
+
+body{
+    margin: 0 auto;
+    background-color: rgb(8, 43, 73);
+    
+    
+}
+
+
+/*  tete de page */
+header.header {
+    display: flex;
+    align-items: center;
+    
+    background-color:v ;
+}
+header.header img{
+    width: 150px;
+
+}
+
+section.top.page {
+    background-color: rgba(136, 133, 197, 0);
+    height: 100vh;
+    background-size: cover;
+    margin: 50px;
+    
+}
+/* menu de navigation */
+
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color:ellow;
+    width: 500px;
+    margin-left: 500px;
+}
+nav.nav li {
+    color: blue;
+}
+/*.big_title {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: blue;
+    font-size: 20px;  
+
+} 
+*/
+/* best sells */
+.section.title {
+    font-size: 30px;
+    font-weight: 100px;
+    position: relative;
+}
+.section.title::before{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    width: 50px;
+    height: 6px;
+    bottom: 0;
+}
+.domaine{
+    
+    min-height: 250px;
+    display: flex;
+}
+
+
+.images{
+    background-image: url(../images/photo1.jpg);
+    width: 1300px;
+    height: 400px;
+    margin: 0px;
+    border: 2px solid blue;
+    margin: 0px auto;
+    display: flex;
+    flex: 1;
+
+    -webkit-animation-name: diapo;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite ;
+    -webkit-animation-direction: normal;
+
+    
+    -moz-animation-name: diapo;
+    -moz-animation-duration: 20s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite ;
+    -moz-animation-direction: normal;
+
+    animation-name: diapo;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite ;
+    animation-direction: normal;
+}
+
+
+@-webkit-keyframes diapo{
+    0%{background-image:url(../images/photo1.jpg);}
+    20%{background-image: url(../images/photo2.jpg);}
+    40%{background-image: url(../images/photo3.jpg);}
+    80%{background-image: url(../images/photo4.jpg);}
+    100%{background-image: url(../images/photo5.jpg);}
+}
+@-moz-keyframes diapo{
+    0%{background-image:url(../images/photo1.jpg);}
+    20%{background-image: url(../images/photo2.jpg);}
+    40%{background-image: url(../images/photo3.jpg);}
+    80%{background-image: url(../images/photo4.jpg);}
+    100%{background-image: url(../images/photo5.jpg);}
+}
+@keyframes diapo{
+    0%{background-image:url(../images/photo1.jpg);}
+    20%{background-image: url(../images/photo2.jpg);}
+    40%{background-image: url(../images/photo3.jpg);}
+    80%{background-image: url(../images/photo4.jpg);}
+}
+
+
+
+
+
