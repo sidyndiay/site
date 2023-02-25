@@ -1,0 +1,23 @@
+.image {
+    width: 155px;
+    height: 80px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.rounded {
+    border-radius: 0.5rem!important;
+}
+
+.c-item{
+    height: 250px;
+
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(1);
+}
